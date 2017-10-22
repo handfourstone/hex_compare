@@ -385,5 +385,7 @@ int main(int argc, char *argv[])
 		exit(0);
 	}
 	compare(parm);
+	free(parm);
+
 	return 0;
 }
